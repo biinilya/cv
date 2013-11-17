@@ -1,0 +1,187 @@
+{
+  "basics": {
+    "name": "Ilya Biin",
+    "label": "Senior Software Engineer",
+    "picture": "file:///resume/id.jpg",
+    "email": "me@ilyabiin.com",
+    "phone": "1 (929) 376-3760",
+    "summary": "Ilya has more than a decade’s worth of experience working as a system architect, a Go developer, and DevOps. He has implemented various AWS works (integration, price optimization, and high availability), automation setup, and orchestration. Overall, Ilya is a professional developer with a good knowledge of APIs and security.",
+    "location": {
+      "address": "One Rockwell East Tower",
+      "postalCode": "1210",
+      "city": "Makati",
+      "countryCode": "PH",
+      "region": "Metro Manila"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "ilyabiin",
+        "url": "https://www.linkedin.com/in/ilyabiin/"
+      },
+      {
+        "network": "GitHub",
+        "username": "biinilya",
+        "url": "https://github.com/biinilya"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Ferrum Health Inc.",
+      "position": "Software Engineer",
+      "startDate": "2018-11-06",
+      "summary": "Ferrum Health Inc. is an AI company focused on X-Rays pictures analysis. This position was opened to help them in building metrics/logging/analytics system.",
+      "highlights": [
+        "The system was designed. Stack used: ElasticSearch/Kibana/Logbeats/Metricbeat/Heartbeat/Wazuh",
+        "On-premise datacenter environment deployment supported as well as replication to AWS-based ElasticSearch",
+        "System setup, dependencies, and management documented",
+        "Metrics Framework integrated into exiting products"
+      ]
+    },
+    {
+      "company": "Coins.ph",
+      "url": "coins.ph",
+      "position": "Software Developer",
+      "startDate": "2017-12-28",
+      "endDate": "2018-10-28",
+      "summary": "Coins.ph is a digital wallet that Filipinos can use to make payments or buy digital currency such as Bitcoin, Bitcoin Cash, and Ethereum. As a Software Developer I was a part of infrastructure team.",
+      "highlights": [
+        "Alphapoint exchange integrated, providing the customers with an inexpensive way to exchange fiat and crypto-currencies",
+        "Postgres performance issues resolved",
+        "Integrated prometheus monitoring to Kubernetes cluster and the apps running in it",
+        "Golang micro-service template designed",
+        "Redis cluster autoscaling for Kubernetes"
+      ]
+    },
+    {
+      "company": "Gett.com",
+      "url": "gett.com",
+      "position": "Software Engineer",
+      "startDate": "2017-02-03",
+      "endDate": "2017-12-28",
+      "summary": "Gett is a taxi app, like Uber, that's mostly popular in Russia and Israel. As a part of a Billing Team, I was responsible for delivering internal accounting service for drivers and passengers.",
+      "highlights": [
+        "Prepared the team to pass an internal qualification test based on Go",
+        "Crafted the architecture of the driver earnings service (DES) with an embedded conflict resolution system",
+        "Developed an API for the business intelligence in the driver earnings service (DES).",
+        "Resolved the load issue in the DES production"
+      ]
+    },
+    {
+      "company": "Emerging Travel Inc. (ETI)",
+      "url": "zenhotels.com",
+      "position": "System Architect",
+      "startDate": "2015-02-03",
+      "endDate": "2016-10-01",
+      "summary": "Active engagement in development of middle and long-term tech strategy. Maintaining high availability of a project. Research and development of scalable project architecture. Splitting monolit code blocks into individual services. Providing developer teams with convenient tools and services for every-day tasks. Resolving technical questions with partners.",
+      "highlights": [
+        "Pipeline of third-parties integrations",
+        "Micro-service architecture on top of Kubernetes",
+        "Network balancing layer"
+      ]
+    },
+    {
+      "company": "Emerging Travel Inc. (ETI)",
+      "url": "zenhotels.com",
+      "position": "Software Engineer",
+      "startDate": "2011-10-08",
+      "endDate": "2015-02-03",
+      "summary": "Web site search system speed and quality improvements.",
+      "highlights": [
+        "Dynamic pricing engine (based on marketing, supply, and customer properties)",
+        "Business rules engine",
+        "1Tb/100,000rps caching layer, based on Aerospike cluster",
+        "Splitting monolit python code to Golang/Python microservices"
+      ]
+    },
+    {
+      "company": "Mail.Ru Group",
+      "url": "mail.ru",
+      "position": "Software Developer",
+      "startDate": "2010-02-07",
+      "endDate": "2011-10-08",
+      "highlights": [
+        "ICQ (AOL) acceptance tests (when it was bought by the Mail.RU Group)",
+        "Developed the ICQ-to-Mail.Ru Agent interservice communication (interop)"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Colegio De Porta Vaga",
+      "area": "Computer Science",
+      "studyType": "Bachelor of Science",
+      "startDate": "2014-10-01",
+      "endDate": "2018-04-03",
+      "gpa": "3.3"
+    },
+    {
+      "institution": "Moscow Institue of Physics and Technology (MIPT)",
+      "area": "Applied Mathematics",
+      "studyType": "Bachelor of Science",
+      "startDate": "2005-09-10",
+      "endDate": "2009-07-17",
+      "gpa": "3.6"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Rapid Web Development. Golang vs Ruby",
+      "releaseDate": "2017-10-28",
+      "url": "https://dou.ua/calendar/17615/",
+      "publisher": "Sphere Inc"
+    },
+    {
+      "name": "1,000,000 concurrent data streams",
+      "releaseDate": "2017-10-28",
+      "url": "https://www.slideshare.net/AvitoTech/zenhotels",
+      "publisher": "Avito Tech"
+    },
+    {
+      "name": "Golang strengths and weakness for startup",
+      "releaseDate": "2013-11-20",
+      "url": "https://events.yandex.ru/lib/talks/1455/",
+      "publisher": "Yandex Tech talks"
+    },
+    {
+      "name": "Building a distributed cache system",
+      "releaseDate": "2013-02-24",
+      "url": "https://pyvideo.org/pycon-russia-2013/construction-distributed-caching-system-and-messaging.html",
+      "publisher": "PyCon Russia 2013"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Backend",
+      "keywords": [
+        "Golang",
+        "Python",
+        "C/C++",
+
+        "C10k problem",
+        "NAT traversal",
+        "TCP stream multiplexing"
+      ]
+    },
+    {
+      "name": "DevOps",
+      "keywords": [
+        "CI/CD",
+        "kubernetes",
+        "AWS",
+        "ansible",
+        "prometheus"
+      ]
+    },
+    {
+      "name": "Databases",
+      "keywords": [
+        "Postgres",
+        "Redis",
+        "Aerospike",
+        "ElasticSearch"
+      ]
+    }
+  ]
+}
