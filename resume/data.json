@@ -113,16 +113,14 @@
       "area": "Computer Science",
       "studyType": "Bachelor of Science",
       "startDate": "2014-10-01",
-      "endDate": "2018-04-03",
-      "gpa": "3.3"
+      "endDate": "2018-04-03"
     },
     {
       "institution": "Moscow Institue of Physics and Technology (MIPT)",
       "area": "Applied Mathematics",
       "studyType": "Bachelor of Science",
       "startDate": "2005-09-10",
-      "endDate": "2009-07-17",
-      "gpa": "3.6"
+      "endDate": "2009-07-17"
     }
   ],
   "publications": [
