@@ -36,7 +36,7 @@
         "The system was designed. Stack used: ElasticSearch/Kibana/Logbeats/Metricbeat/Heartbeat/Wazuh",
         "On-premise datacenter environment deployment supported as well as replication to AWS-based ElasticSearch",
         "System setup, dependencies, and management documented",
-        "Metrics Framework integrated into exiting products"
+        "Metrics Framework integrated into existing products"
       ]
     },
     {
@@ -45,11 +45,11 @@
       "position": "Software Developer",
       "startDate": "2017-12-28",
       "endDate": "2018-10-28",
-      "summary": "Coins.ph is a digital wallet that Filipinos can use to make payments or buy digital currency such as Bitcoin, Bitcoin Cash, and Ethereum. As a Software Developer I was a part of infrastructure team.",
+      "summary": "Coins.ph is a digital wallet that Filipinos can use to make payments or buy digital currency such as Bitcoin, Bitcoin Cash, and Ethereum. As a Software Developer, I was a part of the infrastructure team.",
       "highlights": [
         "Alphapoint exchange integrated, providing the customers with an inexpensive way to exchange fiat and crypto-currencies",
         "Postgres performance issues resolved",
-        "Integrated prometheus monitoring to Kubernetes cluster and the apps running in it",
+        "Integrated Prometheus monitoring to Kubernetes cluster and the apps running in it",
         "Golang micro-service template designed",
         "Redis cluster autoscaling for Kubernetes"
       ]
@@ -60,7 +60,7 @@
       "position": "Software Engineer",
       "startDate": "2017-02-03",
       "endDate": "2017-12-28",
-      "summary": "Gett is a taxi app, like Uber, that's mostly popular in Russia and Israel. As a part of a Billing Team, I was responsible for delivering internal accounting service for drivers and passengers.",
+      "summary": "Gett is a taxi app, like Uber, that's most popular in Russia and Israel. As a part of a Billing Team, I was responsible for delivering internal accounting service for drivers and passengers.",
       "highlights": [
         "Prepared the team to pass an internal qualification test based on Go",
         "Crafted the architecture of the driver earnings service (DES) with an embedded conflict resolution system",
@@ -74,9 +74,9 @@
       "position": "System Architect",
       "startDate": "2015-02-03",
       "endDate": "2016-10-01",
-      "summary": "Active engagement in development of middle and long-term tech strategy. Maintaining high availability of a project. Research and development of scalable project architecture. Splitting monolit code blocks into individual services. Providing developer teams with convenient tools and services for every-day tasks. Resolving technical questions with partners.",
+      "summary": "Active engagement in the development of middle and long-term tech strategy. Maintaining high availability of a project. Research and development of scalable project architecture. Splitting monolith code blocks into individual services. Providing developer teams with convenient tools and services for every-day tasks. Resolving technical questions with partners.",
       "highlights": [
-        "Pipeline of third-parties integrations",
+        "A pipeline of third-parties integrations",
         "Micro-service architecture on top of Kubernetes",
         "Network balancing layer"
       ]
@@ -87,12 +87,12 @@
       "position": "Software Engineer",
       "startDate": "2011-10-08",
       "endDate": "2015-02-03",
-      "summary": "Web site search system speed and quality improvements.",
+      "summary": "Website search system speed and quality improvements.",
       "highlights": [
         "Dynamic pricing engine (based on marketing, supply, and customer properties)",
         "Business rules engine",
         "1Tb/100,000rps caching layer, based on Aerospike cluster",
-        "Splitting monolit python code to Golang/Python microservices"
+        "Splitting monolith python code to Golang/Python microservices"
       ]
     },
     {
