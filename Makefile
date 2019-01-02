@@ -36,4 +36,4 @@ docs/%.html: renderer/build.done docs/id.jpg resume/html.json resume/cv-%.json
 	cat /resume/out/resume-ilya-biin-$*.html | \
 		sed 's|"#download"|"/cv/ilya-biin-$*.pdf" download|' | \
 		sed "s|</head>|$(GA)</head>|" \
-		> docs/ilya-biin-$*.html
+		> docs/$*.html
