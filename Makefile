@@ -6,12 +6,13 @@ RENDERER := docker run -it --rm \
 GA := $(shell printf '%q' "$$(cat resume/ga.html|tr '\n' ' ')")
 ROLES := $(shell find resume -name "data-*.yml" | sed 's|resume/data-||' | sed 's|.yml||')
 PATCH_TARGETS := $(patsubst %,resume/cv-%.json,$(ROLES))
-RENDER_TARGTES := $(patsubst %,docs/ilya-biin-%.pdf,$(ROLES))
-HTML_TARGTES := $(patsubst %,docs/%.html,$(ROLES))
+RENDER_TARGETS := $(patsubst %,docs/ilya-biin-%.pdf,$(ROLES))
+HTML_TARGETS := $(patsubst %,docs/%.html,$(ROLES))
+TXT_TARGETS := $(patsubst %,docs/ilya-biin-%.txt,$(ROLES))
 
 JOBS := "ferrum coins gett eti-zrchitect eti-developer"
 
-all: $(PATCH_TARGETS) $(RENDER_TARGTES) $(HTML_TARGTES)
+all: $(PATCH_TARGETS) $(RENDER_TARGETS) $(HTML_TARGETS) $(TXT_TARGETS)
 
 renderer/build.done: renderer/Dockerfile renderer/themes
 	docker build --rm -t hackmyresume renderer
@@ -44,6 +45,10 @@ docs/ilya-biin-%.pdf: renderer/build.done docs/id.jpg resume/cv-%.json
 	$(RENDERER) hackmyresume build /resume/cv-$*.json TO /resume/out/resume-ilya-biin-$*.pdf \
 		-t node_modules/jsonresume-theme-stackoverflow
 	cp resume/out/resume-ilya-biin-$*.pdf docs/ilya-biin-$*.pdf
+
+docs/ilya-biin-%.txt: renderer/build.done docs/id.jpg resume/cv-%.json
+	$(RENDERER) hackmyresume build /resume/cv-$*.json TO /resume/out/resume-ilya-biin-$*.txt
+	cp resume/out/resume-ilya-biin-$*.txt docs/ilya-biin-$*.txt
 
 docs/%.html: renderer/build.done docs/id.jpg resume/html.json resume/cv-%.json
 	$(RENDERER) hackmyresume build /resume/cv-$*.json /resume/html.json TO /resume/out/resume-ilya-biin-$*.html \
