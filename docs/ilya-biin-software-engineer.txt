@@ -20,92 +20,49 @@ SKILLS -------------------------------------------------------------------------
 EMPLOYMENT ---------------------------------------------------------------------
 
 Software Developer, Coins.ph (2017-12 — 2018-10)
-Coins.ph is a digital wallet that Filipinos can use to make payments or buy digital currency such as Bitcoin, Bitcoin Cash, and Ethereum. As a Software Developer, I was a part of the infrastructure team.
+Coins.ph is a digital wallet that Filipinos can use to make payments or buy digital currency such as Bitcoin, Bitcoin Cash, and Ethereum. As a Software Developer, I was a part of the infrastructure team. Technologies: Python, Django, Celery, Golang, SQS, SNS, Tornado, Beego, Mockgen, Ginkgo, AWS, Kubernetes, Prometheus, Redis
 
 - Implemented a decorator to make any django view asynchronous
-[Python|Django|Celery]
-
 - Designed and implemented Jira/Github/CI/Deployment integration service
-[Python|Go|SQS|SNS]
-
 - Alphapoint exchange integrated, providing the customers with an inexpensive way to exchange fiat and crypto-currencies
-[Python|Django|Tornado]
-
 - Golang micro-service template designed
-[Golang|Beego|Mockgen|Ginkgo]
-
 - Integrated Prometheus monitoring to Kubernetes cluster and the apps running in it
-[Prometheus|Kuberbetes|Python|Go]
-
 - Redis cluster autoscaling for Kubernetes
-[Redis|Kubernetes]
-
 
 Software Engineer, Ferrum Health Inc. (2018-11 — Present)
-Ferrum Health Inc. is an AI company focused on X-Rays pictures analysis. This position was opened to help them in building metrics/logging/analytics system.
+Ferrum Health Inc. is an AI company focused on X-Rays pictures analysis. This position was opened to help them in building metrics/logging/analytics system. Technologies: Golang, Python, ElasticSearch, Kibana, Logbeats, Metricbeat, Heartbeat, Wazuh, AWS, Docker, gRPC
 
 - Designed and integrated metrics system
-[ElasticSearch|Kibana|Logbeats|Metricbeat|Heartbeat|Wazuh]
-
 - On-premise datacenter deployment supported as well as managed by AWS
-[ElasticSearch|Docker|AWS]
-
 - Integrated metrics framework client to gRPC server
-[Golang|Python|gRPC]
-
 
 Software Engineer, Gett.com (2017-02 — 2017-12)
-Gett is a taxi app, like Uber, that's most popular in Russia and Israel. As a part of a Billing Team, I was responsible for delivering internal accounting service for drivers and passengers.
+Gett is a taxi app, like Uber, that's most popular in Russia and Israel. As a part of a Billing Team, I was responsible for delivering internal accounting service for drivers and passengers. Tecnhologies: Golang, Ruby, PostgreSQL, SQS, SNS, API Gateway
 
 - Prepared the team to pass an internal qualification test based on Go
-[Golang]
-
 - Crafted the architecture of the driver earnings service (DES) with an embedded conflict resolution system
-[Golang|PostgreSQL]
-
 - Developed an API for the business intelligence in the driver earnings service (DES)
-[Golang|PostgreSQL]
-
 - Profiled and resolved the  major performance issue in the DES production
-[Golang|PostgreSQL]
-
 
 Software Developer, Mail.Ru Group (2010-02 — 2011-10)
 
 - ICQ (AOL) acceptance tests (when it was bought by the Mail.RU Group)
-[C/C++]
-
 - Developed the ICQ-to-Mail.Ru Agent interservice communication (interop)
-[C++]
-
 
 Software Engineer, Emerging Travel Inc. (ETI) (2011-10 — 2015-02)
-Website search system speed and quality improvements.
+Website search system speed and quality improvements. Technologies: Golang, Python, Protobuf, AWS, TCP, API Gateway, Aerospike, Kafka
+
 - Designed and implemented dynamic pricing engine (based on marketing, supply, and customer properties)
-[Golang|Aerospike|Kafka]
-
 - Designed and implemented business rules engine
-[Python|Django|Golang]
-
-- Splitt monolith python code to Golang/Python microservices
-[Golang|Python|AWS|API Gateway]
-
+- Split monolith python code to Golang/Python microservices
 - Created 1Tb/100,000rps caching layer, based on Aerospike cluster
-[Golang|Aerospike|Kafka]
-
 
 System Architect, Emerging Travel Inc. (ETI) (2015-02 — 2016-10)
-Active engagement in the development of middle and long-term tech strategy. Maintaining high availability of a project. Research and development of scalable project architecture. Splitting monolith code blocks into individual services. Providing developer teams with convenient tools and services for every-day tasks. Resolving technical questions with partners.
+Active engagement in the development of middle and long-term tech strategy. Maintaining high availability of a project. Research and development of scalable project architecture. Splitting monolith code blocks into individual services. Providing developer teams with convenient tools and services for every-day tasks. Resolving technical questions with partners. Technologies: Golang, Python, Protobuf, AWS, TCP, API Gateway, Aerospike, Kafka
 
 - Designed and led the development of third-parties integrations pipeline
-[Golang|Python|Protobuf]
-
 - Designed and integrated micro-service architecture on top of Kubernetes
-[Golang|Python|AWS|API Gateway]
-
 - Built the network balancing layer
-[AWS|TCP|API Gateway]
-
 
 
 
