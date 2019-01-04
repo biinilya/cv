@@ -1,2 +1,24 @@
 ---
 basics:
+  label: Senior Software Engineer
+  location:
+skills:
+  - keywords:
+      - Django
+      - Flask
+      - Asyncio
+      - Tornado
+      - Gevent
+      - Cython
+      - Cffi
+      - pytests
+    name: Python
+  - keywords:
+      - Gin
+      - Beego
+      - Cgo
+      - Pprof
+      - GC
+      - Ginkgo
+      - Mockgen
+    name: Golang

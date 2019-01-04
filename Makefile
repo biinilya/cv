@@ -9,6 +9,8 @@ PATCH_TARGETS := $(patsubst %,resume/cv-%.json,$(ROLES))
 RENDER_TARGTES := $(patsubst %,docs/ilya-biin-%.pdf,$(ROLES))
 HTML_TARGTES := $(patsubst %,docs/%.html,$(ROLES))
 
+JOBS := "ferrum coins gett eti-zrchitect eti-developer"
+
 all: $(PATCH_TARGETS) $(RENDER_TARGTES) $(HTML_TARGTES)
 
 renderer/build.done: renderer/Dockerfile renderer/themes
@@ -22,8 +24,21 @@ docs/id.jpg: resume/id.jpg
 	cp resume/id.jpg docs/id.jpg
 
 resume/cv-%.json: resume/data.yml resume/data-%.yml
-	yq merge --append resume/data.yml resume/data-$*.yml | \
-		python -c 'import sys, yaml, json; json.dump(yaml.load(sys.stdin), sys.stdout, indent=4)' > $@
+	$(eval TMP_YML := $(shell mktemp))
+	$(eval TMP_PART := $(shell mktemp))
+	$(eval TMP_WORK := $(shell mktemp))
+	yq merge --append resume/data-$*.yml resume/data.yml > $(TMP_YML)
+	for company in $$(yq read $(TMP_YML) experience | grep -v '  ' | cut -f1 -d ':'); do \
+		yq read $(TMP_YML) experience.$$company | yq prefix - work[0] > $(TMP_PART); \
+		if [ -s $(TMP_WORK) ]; then \
+			yq merge --inplace --append $(TMP_WORK) $(TMP_PART); \
+		else \
+			cp $(TMP_PART) $(TMP_WORK); \
+		fi \
+	done
+	yq merge --inplace --append $(TMP_WORK) $(TMP_YML);
+	yq read -j $(TMP_WORK) > $@
+	rm $(TMP_PART) $(TMP_YML) $(TMP_WORK)
 
 docs/ilya-biin-%.pdf: renderer/build.done docs/id.jpg resume/cv-%.json
 	$(RENDERER) hackmyresume build /resume/cv-$*.json TO /resume/out/resume-ilya-biin-$*.pdf \

@@ -1,0 +1,13 @@
+---
+basics:
+  label: Senior DevOps Engineer
+  location:
+skills:
+  - keywords:
+      - CI/CD
+      - Kubernetes
+      - AWS
+      - ansible
+      - prometheus
+      - terraform
+    name: DevOps
