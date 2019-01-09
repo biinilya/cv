@@ -1,12 +1,13 @@
 So what can I offer you:
-* 5 years experience in GoLang, also in python and C++. 10 years overall.
+* 5 years experience in GoLang, 8 in Python and 3 in C++. 10 years overall.
 * What is more, a solid DevOps experience including Kubernetes, ELK and Mongo.
 * Real-world experience in performance tuning and high-load
+  (this includes the network part, like c10k problem and NAT traversal, Garbage Collector optimizations and so on)
 
 Some portfolio links:
 * Pet project me not ashamed to share: https://github.com/zenhotels/astranet (unmaintained)
-* A test project written as a part of an interview: https://github.com/biinilya/sample
-* A real-world project I have contributed a lot to (search system, pricing enging, etc.) https://zenhotels.com
+* A test project, written as a part of an interview: https://github.com/biinilya/sample
+* A real-world project I have contributed a lot to (search system, pricing engine, etc.) https://zenhotels.com
 
 Interested?
 Take a look at https://biinilya.github.io/cv/ and https://toptal.com/resume/ilya-biin for resume

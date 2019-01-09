@@ -136,7 +136,7 @@ experience:
       - Designed and implemented dynamic pricing engine (based on marketing, supply, and customer properties)
       - Designed and implemented business rules engine
       - Split monolith python code to Golang/Python microservices
-      - Created 1Tb/100,000rps caching layer, based on Aerospike cluster
+      - Created 1Tb/1,000,000rps caching layer, based on Aerospike cluster
     position: Software Engineer
     startDate: 2011-10-08
     summary: >

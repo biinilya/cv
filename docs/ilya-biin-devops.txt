@@ -54,7 +54,7 @@ Website search system speed and quality improvements. Technologies: Golang, Pyth
 - Designed and implemented dynamic pricing engine (based on marketing, supply, and customer properties)
 - Designed and implemented business rules engine
 - Split monolith python code to Golang/Python microservices
-- Created 1Tb/100,000rps caching layer, based on Aerospike cluster
+- Created 1Tb/1,000,000rps caching layer, based on Aerospike cluster
 
 System Architect, Emerging Travel Inc. (ETI) (2015-02 — 2016-10)
 Active engagement in the development of middle and long-term tech strategy. Maintaining high availability of a project. Research and development of scalable project architecture. Splitting monolith code blocks into individual services. Providing developer teams with convenient tools and services for every-day tasks. Resolving technical questions with partners. Technologies: Golang, Python, Protobuf, AWS, TCP, API Gateway, Aerospike, Kafka
