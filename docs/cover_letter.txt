@@ -1,4 +1,4 @@
-So what can I offer you:
+My skills are:
 * 5 years experience in GoLang, 8 in Python and 3 in C++. 10 years overall.
 * What is more, a solid DevOps experience including Kubernetes, ELK and Mongo.
 * Real-world experience in performance tuning and high-load
