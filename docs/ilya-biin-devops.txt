@@ -34,7 +34,7 @@ As a Toptal engineer I was working for different clients, assisting in their cha
 - Designed and integrated metrics system
 - Added GPU support for golang TensorFlow library in kubernetes
 - Moved functionality from NodeJS monolith to GoLang microservices
-- Created a number of microservices frmo scratch
+- Created a number of microservices from scratch
 
 Software Engineer, Gett.com (2017-02 — 2017-12)
 Gett is a taxi app, like Uber, that's most popular in Russia and Israel. As a part of a Billing Team, I was responsible for delivering internal accounting service for drivers and passengers. Tecnhologies: Golang, Ruby, PostgreSQL, SQS, SNS, API Gateway
