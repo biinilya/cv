@@ -5,7 +5,7 @@ Tel: 1 (929) 376-3760
 ================================================================================
 
 
-Ilya has more than a decade’s worth of experience working as a system architect, a Go/Python developer, and DevOps. He has implemented various AWS works (integration, price optimization, and high availability), automation setup, and orchestration. Ilya has a lot of experience in Travel and Finance industry, has been working independently in distributed teams, cares about business goals and a fan of a startup culture.
+Ilya has more than a decade’s worth of experience working as a system architect, a Go/Python developer, and DevOps. He has implemented various AWS works (integration, price optimization, and high availability), automation setup, and orchestration. Ilya has a lot of experience in Travel and Finance industry, has been working independently in distributed teams, cares about business goals and is a fan of a startup culture.
 
 
 
