@@ -1,6 +1,6 @@
 Ilya Biin
 Email: me@ilyabiin.com
-Tel: 1 (929) 376-3760
+
 
 ================================================================================
 
@@ -19,6 +19,14 @@ SKILLS -------------------------------------------------------------------------
 
 EMPLOYMENT ---------------------------------------------------------------------
 
+Software Engineer, Toptal (2018-11 — Present)
+As a Toptal engineer I was working for different clients, assisting in their challenges. Technologies: Golang, Python, ElasticSearch, Kibana, Logbeats, Metricbeat, Heartbeat, Wazuh, AWS, Docker, gRPC, Kubernetes
+
+- Designed and integrated metrics system
+- Added GPU support for golang TensorFlow library in kubernetes
+- Moved functionality from NodeJS monolith to GoLang microservices
+- Created a number of microservices from scratch
+
 Software Developer, Coins.ph (2017-12 — 2018-10)
 Coins.ph is a digital wallet that Filipinos can use to make payments or buy digital currency such as Bitcoin, Bitcoin Cash, and Ethereum. As a Software Developer, I was a part of the infrastructure team. Technologies: Python, Django, Celery, Golang, SQS, SNS, Tornado, Beego, Mockgen, Ginkgo, AWS, Kubernetes, Prometheus, Redis
 
@@ -29,14 +37,6 @@ Coins.ph is a digital wallet that Filipinos can use to make payments or buy digi
 - Integrated Prometheus monitoring to Kubernetes cluster and the apps running in it
 - Redis cluster autoscaling for Kubernetes
 
-Software Engineer, Toptal (2018-11 — Present)
-As a Toptal engineer I was working for different clients, assisting in their challenges. Technologies: Golang, Python, ElasticSearch, Kibana, Logbeats, Metricbeat, Heartbeat, Wazuh, AWS, Docker, gRPC, Kubernetes
-
-- Designed and integrated metrics system
-- Added GPU support for golang TensorFlow library in kubernetes
-- Moved functionality from NodeJS monolith to GoLang microservices
-- Created a number of microservices from scratch
-
 Software Engineer, Gett.com (2017-02 — 2017-12)
 Gett is a taxi app, like Uber, that's most popular in Russia and Israel. As a part of a Billing Team, I was responsible for delivering internal accounting service for drivers and passengers. Tecnhologies: Golang, Ruby, PostgreSQL, SQS, SNS, API Gateway
 
@@ -45,10 +45,12 @@ Gett is a taxi app, like Uber, that's most popular in Russia and Israel. As a pa
 - Developed an API for the business intelligence in the driver earnings service (DES)
 - Profiled and resolved the  major performance issue in the DES production
 
-Software Developer, Mail.Ru Group (2010-02 — 2011-10)
+System Architect, Emerging Travel Inc. (ETI) (2015-02 — 2016-10)
+Active engagement in the development of middle and long-term tech strategy. Maintaining high availability of a project. Research and development of scalable project architecture. Splitting monolith code blocks into individual services. Providing developer teams with convenient tools and services for every-day tasks. Resolving technical questions with partners. Technologies: Golang, Python, Protobuf, AWS, TCP, API Gateway, Aerospike, Kafka
 
-- ICQ (AOL) acceptance tests (when it was bought by the Mail.RU Group)
-- Developed the ICQ-to-Mail.Ru Agent interservice communication (interop)
+- Designed and led the development of third-parties integrations pipeline
+- Designed and integrated micro-service architecture on top of Kubernetes
+- Built the network balancing layer
 
 Software Engineer, Emerging Travel Inc. (ETI) (2011-10 — 2015-02)
 Website search system speed and quality improvements. Technologies: Golang, Python, Protobuf, AWS, TCP, API Gateway, Aerospike, Kafka
@@ -58,12 +60,10 @@ Website search system speed and quality improvements. Technologies: Golang, Pyth
 - Split monolith python code to Golang/Python microservices
 - Created 1Tb/1,000,000rps caching layer, based on Aerospike cluster
 
-System Architect, Emerging Travel Inc. (ETI) (2015-02 — 2016-10)
-Active engagement in the development of middle and long-term tech strategy. Maintaining high availability of a project. Research and development of scalable project architecture. Splitting monolith code blocks into individual services. Providing developer teams with convenient tools and services for every-day tasks. Resolving technical questions with partners. Technologies: Golang, Python, Protobuf, AWS, TCP, API Gateway, Aerospike, Kafka
+Software Developer, Mail.Ru Group (2010-02 — 2011-10)
 
-- Designed and led the development of third-parties integrations pipeline
-- Designed and integrated micro-service architecture on top of Kubernetes
-- Built the network balancing layer
+- ICQ (AOL) acceptance tests (when it was bought by the Mail.RU Group)
+- Developed the ICQ-to-Mail.Ru Agent interservice communication (interop)
 
 
 

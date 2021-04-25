@@ -9,7 +9,6 @@ basics:
     postalCode: 1210
     region: Metro Manila
   name: Ilya Biin
-  phone: 1 (929) 376-3760
   picture: file:///resume/id.jpg
   profiles:
     - network: LinkedIn
@@ -18,6 +17,9 @@ basics:
     - network: GitHub
       url: https://github.com/biinilya
       username: biinilya
+    - network: Telegram
+      url: https://t.me/ilyabiin
+      username: ilyabiin
   summary: >
     Ilya has more than a decade’s worth of experience working as a system architect, a Go/Python developer, and DevOps.
     He has implemented various AWS works (integration, price optimization, and high availability), automation setup, and orchestration.

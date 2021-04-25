@@ -28,16 +28,16 @@ resume/cv-%.json: resume/data.yml resume/data-%.yml
 	$(eval TMP_YML := $(shell mktemp))
 	$(eval TMP_PART := $(shell mktemp))
 	$(eval TMP_WORK := $(shell mktemp))
-	yq merge --append resume/data-$*.yml resume/data.yml > $(TMP_YML)
+	yq merge -a=append resume/data-$*.yml resume/data.yml > $(TMP_YML)
 	for company in $$(yq read $(TMP_YML) experience | grep -v '  ' | cut -f1 -d ':'); do \
 		yq read $(TMP_YML) experience.$$company | yq prefix - work[0] > $(TMP_PART); \
 		if [ -s $(TMP_WORK) ]; then \
-			yq merge --inplace --append $(TMP_WORK) $(TMP_PART); \
+			yq merge --inplace -a=append $(TMP_WORK) $(TMP_PART); \
 		else \
 			cp $(TMP_PART) $(TMP_WORK); \
 		fi \
 	done
-	yq merge --inplace --append $(TMP_WORK) $(TMP_YML);
+	yq merge --inplace -a=append $(TMP_WORK) $(TMP_YML);
 	yq read -j $(TMP_WORK) > $@
 	rm $(TMP_PART) $(TMP_YML) $(TMP_WORK)
 
