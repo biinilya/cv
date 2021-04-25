@@ -20,7 +20,7 @@ SKILLS -------------------------------------------------------------------------
 EMPLOYMENT ---------------------------------------------------------------------
 
 Software Engineer, Toptal (2018-11 — Present)
-As a Toptal engineer I was working for different clients, assisting in their challenges. Technologies: Golang, Python, ElasticSearch, Kibana, Logbeats, Metricbeat, Heartbeat, Wazuh, AWS, Docker, gRPC, Kubernetes
+As a Toptal engineer I was working for different clients (including Tesla, Workato and others), assisting in their challenges. Technologies: Golang, Python, ElasticSearch, Kibana, Logbeats, Metricbeat, Heartbeat, Wazuh, AWS, Docker, gRPC, Kubernetes
 
 - Designed and integrated metrics system
 - Added GPU support for golang TensorFlow library in kubernetes
