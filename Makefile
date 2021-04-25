@@ -54,6 +54,6 @@ docs/%.html: renderer/build.done docs/id.jpg resume/html.json resume/cv-%.json
 	$(RENDERER) hackmyresume build /resume/cv-$*.json /resume/html.json TO /resume/out/resume-ilya-biin-$*.html \
 		-t node_modules/jsonresume-theme-eloquent
 	cat resume/out/resume-ilya-biin-$*.html | \
-		sed 's|"#download"|"/cv/ilya-biin-$*.pdf" download|' | \
+		sed 's|"#download"|"/ilya-biin-$*.pdf" download|' | \
 		sed "s|</head>|$(GA)</head>|" \
 		> docs/$*.html

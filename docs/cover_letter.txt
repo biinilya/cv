@@ -10,4 +10,4 @@ Some portfolio links:
 * A real-world project I have contributed a lot to (search system, pricing engine, etc.) https://zenhotels.com
 
 Interested?
-Take a look at https://biinilya.github.io/cv/ and https://toptal.com/resume/ilya-biin for resume
+Take a look at https://cv.ilyabiin.com and https://toptal.com/resume/ilya-biin for resume
